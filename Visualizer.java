@@ -28,7 +28,7 @@ public class Visualizer {
         timerPanel.add(timerLabel);
         frame.add(timerPanel, BorderLayout.NORTH);
 
-        // Main puzzle panel
+        // Below is the aain puzzle panel
         panel = new JPanel() {
             @Override
             protected void paintComponent(Graphics g) {
@@ -101,3 +101,4 @@ public class Visualizer {
         }
     }
 }
+
